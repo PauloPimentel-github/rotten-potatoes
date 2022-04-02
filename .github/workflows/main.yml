@@ -27,7 +27,5 @@ jobs:
           push: true
           tags: |
             phpimentel/rotten-potatoes:latest
-            phpimentel/rotten-potatoes:${{ githubrun_number }}
+            phpimentel/rotten-potatoes:${{ github.run_number }}
             
-        
-    
